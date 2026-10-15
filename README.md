@@ -1,1 +1,3 @@
-This repositories contain codes that I used for analysing pooled sequencing data of Silene vulgaris.
+# Silene vulgaris Pool-seq Analysis
+
+This repository documents the analysis of pooled whole-genome sequencing data from female and hermaphrodite pools in two *Silene vulgaris* families (S1 and S4). The workflow includes read quality control, trimming, reference alignment, duplicate marking, and allele-count generation, followed by allele-frequency comparisons, Fisher’s exact tests, and per-site FST estimation. The analyses use FastQC, fastp, BWA-MEM, GATK, SAMtools, PoPoolation2, and grenedalf to investigate genetic differentiation between the pools. Commands and SLURM examples are provided in `Allele_Frequency_difference_fst_codes.md`; file paths, sample names, and computing resources should be adapted before use.
